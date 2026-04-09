@@ -1,0 +1,129 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-serif: 'Cormorant Garamond', Georgia, serif;
+  --font-sans: 'Montserrat', sans-serif;
+  --gold: #c9a96e;
+  --gold-light: #e8d5b0;
+  --dark: #0a0a0a;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #0a0a0a;
+  color: #f5f5f0;
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
+}
+
+.font-cormorant {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+}
+
+.text-gold {
+  color: #c9a96e;
+}
+
+.border-gold {
+  border-color: #c9a96e;
+}
+
+.bg-gold {
+  background-color: #c9a96e;
+}
+
+.btn-outline-gold {
+  display: inline-block;
+  border: 1px solid #c9a96e;
+  color: #c9a96e;
+  padding: 12px 36px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  background: transparent;
+}
+
+.btn-outline-gold:hover {
+  background-color: #c9a96e;
+  color: #0a0a0a;
+}
+
+.btn-solid-gold {
+  display: inline-block;
+  background-color: #c9a96e;
+  color: #0a0a0a;
+  padding: 14px 42px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border: 1px solid #c9a96e;
+}
+
+.btn-solid-gold:hover {
+  background-color: transparent;
+  color: #c9a96e;
+}
+
+.nav-link {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #d0cfc8;
+  transition: color 0.2s ease;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: #c9a96e;
+}
+
+.section-label {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: #c9a96e;
+}
+
+.divider-gold {
+  width: 40px;
+  height: 1px;
+  background-color: #c9a96e;
+  display: inline-block;
+}
+
+img {
+  display: block;
+}
+
+.photo-hover {
+  overflow: hidden;
+}
+
+.photo-hover img {
+  transition: transform 0.7s ease;
+}
+
+.photo-hover:hover img {
+  transform: scale(1.05);
+}
